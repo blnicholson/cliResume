@@ -1,0 +1,77 @@
+{
+    "Summary": [
+        "Ambitious, results-driven full stack (MERN) web developer with proven success creating visually alluring, intuitive, and functional designs. Forward-thinking innovator with the ability to “see around corners,” continuously creating and improving to keep projects on track. Dynamic and approachable relationship builder with innate ability to develop instantaneous rapport with clients, employees/colleagues, leadership, and team. Inspiring leader who fosters collaboration and is most energized when creating to reach for success. "
+    ],
+    "Education": [
+        { 
+        "Graduation Year": " 2018", 
+        "Degree": " Certificate in Full Stack (M.E.R.N) Web Development",
+        "University": " Southern Methodist University",
+        "Location": " Online Virtual Classroom"
+        },
+        {
+        "Graduation Year": " 2016", 
+        "Degree": " Bachelor of Science in Software Engineering with a Concentration in Java",
+        "University": " Colorado Tech University",
+        "Location": " Denver, CO"
+        },
+        {
+        "Graduation Year" : " 2010", 
+        "Degree": " Bachelor of Psychology",
+        "University": " University of Phoenix",
+        "Location": " Phoenix, AZ"
+        }
+    ],
+    "Experience": [
+        {
+        "Year ": " July 2018 - Present",
+        "Employer": " Sparkhound",
+        "Position": " Software Engineer",
+        "Location": " Irving, Texas",
+        "Summary": " Full Stack web developer"    
+        },
+        {
+        "Year": " January 2019 - Present",
+        "Employer": " Trilogy Education",
+        "Position": " Teaching Assistant",
+        "Location": " Remote Online",
+        "Summary": " Full stack web development teaching assistant, assisting in teaching students M.E.R.N"
+        }
+    ],
+    "Skills":[
+        {
+            "My Skills":"\n *HTML5 \n *CSS3 \n *JavaScript \n *jQuery \n *Node.js \n *Express.js \n *React.js \n *MySQL \n *MongoDB \n *Handlebars.js \n *Bootstrap \n *Materialize \n *Skeleton \n *.NET \n *Kentico CMS \n *Git \n *Heroku"
+        }
+    ],
+    "Projects": [
+        {
+        "Name": " ReelDex",
+        "Overview": " A simulated movie engine showing movies from the past to the present",
+        "Tech Stack": " HTML5 | CSS3 | JavaScript |jQuery|OMDB API|The MovieDB API| Materialize CSS Library",
+        "Link": " https://blnicholson.github.io/ReelDex/"       
+        },
+        {
+        "Name": " FallOut Click Memory",
+        "Overview": " A React-based memory game based on the popular video game FallOut ",
+        "Tech Stack": " React.js | HTML5 | CSS3 | JavaScript/JSX | ES6 | Bootstrap CSS Library",
+        "Link": " https://blooming-beach-30586.herokuapp.com/"       
+        },
+        {
+        "Name": " NYT Article Search Application",
+        "Overview": " A React-based application that allows user to search articles from the New Your Times",
+        "Tech Stack": " React.js | HTML5 | CSS3 | JSX | ES6 | Bootstrap CSS Library",
+        "Link": " https://agile-harbor-23067.herokuapp.com/"       
+        }
+    ],
+    
+    "Contact": [
+        {
+        "Email": " blnicholson13@gmail.com",
+        "Phone": " (972) 971-2576",
+        "GitHub": " https://github.com/blnicholson",
+        "LinkedIn":  " https://www.linkedin.com/in/brandy-nicholson/",
+        "Website":  " https://blnicholson.github.io/Portfolio/"
+        }
+    ] 
+    
+}
