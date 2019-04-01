@@ -1,6 +1,6 @@
 {
   "name": "brandy-cliresume",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Resume in the CLI",
   "main": "index2.js",
   "dependencies": {
