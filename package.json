@@ -1,22 +1,32 @@
 {
   "name": "brandy-cliresume",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Resume in the CLI",
+  "main": "index2.js",
   "dependencies": {
-    "chalk": "^2.4.2",
-    "cli-format": "^3.0.9",
-    "dustinmcgilvray_resume": "^1.0.1",
     "figlet": "^1.2.1",
     "gradient-string": "^1.2.0",
-    "inquirer": "^6.2.2",
     "terminal-kit": "^1.27.2",
-    "terminal-link": "^1.2.0"
+    "chalk": "^2.4.2",
+    "inquirer": "^6.2.2",
+    "cli-format": "^3.0.9"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blnicholson/cliResume.git"
+  },
+  "author": "Brandy Nicholson & Dustin Mcgilvray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blnicholson/cliResume/issues"
+  },
+  "homepage": "https://github.com/blnicholson/cliResume#readme",
+
+  "bin": {
+    "brandy-cliresume": "./index2.js"
+  }
 }
