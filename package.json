@@ -1,12 +1,16 @@
 {
-  "name": "cliresume",
+  "name": "brandy-cliresume",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "chalk": "^2.4.2",
     "cli-format": "^3.0.9",
+    "dustinmcgilvray_resume": "^1.0.1",
+    "figlet": "^1.2.1",
+    "gradient-string": "^1.2.0",
     "inquirer": "^6.2.2",
+    "terminal-kit": "^1.27.2",
     "terminal-link": "^1.2.0"
   },
   "devDependencies": {},

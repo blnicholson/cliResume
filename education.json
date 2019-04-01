@@ -1,11 +1,8 @@
 {
-    "Summary": [
-        "Ambitious, results-driven full stack (MERN) web developer with proven success creating visually alluring, intuitive, and functional designs. Forward-thinking innovator with the ability to “see around corners,” continuously creating and improving to keep projects on track. Dynamic and approachable relationship builder with innate ability to develop instantaneous rapport with clients, employees/colleagues, leadership, and team. Inspiring leader who fosters collaboration and is most energized when creating to reach for success. "
-    ],
     "Education": [
         { 
         "Graduation Year": " 2018", 
-        "Degree": " Certificate in Full Stack (M.E.R.N) Web Development",
+        "Certificate": " Certificate in Full Stack (M.E.R.N) Web Development",
         "University": " Southern Methodist University",
         "Location": " Online Virtual Classroom"
         },
@@ -16,7 +13,7 @@
         "Location": " Denver, CO"
         },
         {
-        "Graduation Year" : " 2010", 
+        "Graduation Year" : " 2013", 
         "Degree": " Bachelor of Psychology",
         "University": " University of Phoenix",
         "Location": " Phoenix, AZ"
@@ -40,27 +37,39 @@
     ],
     "Skills":[
         {
-            "My Skills":"\n *HTML5 \n *CSS3 \n *JavaScript \n *jQuery \n *Node.js \n *Express.js \n *React.js \n *MySQL \n *MongoDB \n *Handlebars.js \n *Bootstrap \n *Materialize \n *Skeleton \n *.NET \n *Kentico CMS \n *Git \n *Heroku"
+            "My Skills":"\n *HTML5 \n *CSS3 \n *JavaScript \n *Java \n *jQuery \n *Node.js \n *Express.js \n *React.js \n *MySQL \n *MongoDB \n *Handlebars.js \n *Bootstrap \n *Materialize \n *Skeleton \n *.NET \n *Kentico CMS \n *Sharepoint  \n *Git \n *Heroku \n *Microsoft Access \n *Unix \n *Photoshop"
         }
     ],
     "Projects": [
         {
         "Name": " ReelDex",
         "Overview": " A simulated movie engine showing movies from the past to the present",
-        "Tech Stack": " HTML5 | CSS3 | JavaScript |jQuery|OMDB API|The MovieDB API| Materialize CSS Library",
+        "Tech Stack": " HTML5 | CSS3 | JavaScript | jQuery|  OMDB API| The MovieDB API | Materialize CSS Library",
         "Link": " https://blnicholson.github.io/ReelDex/"       
+        },
+        {
+        "Name": " Zelda Trivia",
+        "Overview": " A basic trivia game based off of the Nintendo Zelda video games.",
+        "Tech Stack":" HTML5 | CSS3 | Javascript | jQuery | Bootstrap 4 CSS Library",
+        "Link": " https://blnicholson.github.io/TriviaGame"
+        },
+        {
+        "Name": " Video Game Gif Vault",
+        "Overview": " An app that allows users to display apps of their choice!",
+        "Tech Stack":" HTML5 | CSS3 | Javascript | jQuery | Bootstrap 4 CSS Library | Giphy API", 
+        "Link": " https://blnicholson.github.io/GifTastic"
         },
         {
         "Name": " FallOut Click Memory",
         "Overview": " A React-based memory game based on the popular video game FallOut ",
-        "Tech Stack": " React.js | HTML5 | CSS3 | JavaScript/JSX | ES6 | Bootstrap CSS Library",
-        "Link": " https://blooming-beach-30586.herokuapp.com/"       
+        "Tech Stack": " React.js | HTML5 | CSS3 | JavaScript/JSX | ES6 | Bootstrap 4 CSS Library",
+        "Link": " https://infinite-reef-99768.herokuapp.com/"       
         },
         {
         "Name": " NYT Article Search Application",
         "Overview": " A React-based application that allows user to search articles from the New Your Times",
-        "Tech Stack": " React.js | HTML5 | CSS3 | JSX | ES6 | Bootstrap CSS Library",
-        "Link": " https://agile-harbor-23067.herokuapp.com/"       
+        "Tech Stack": " React.js | HTML5 | CSS3 | JSX | ES6 | Bootstrap 4 CSS Library",
+        "Link": " https://immense-beyond-97780.herokuapp.com/"       
         }
     ],
     

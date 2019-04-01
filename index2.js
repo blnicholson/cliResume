@@ -1,13 +1,14 @@
+#!\usr\bin\env node
 var inquirer=require("inquirer");
 var chalk=require("chalk");
 var cliFormat=require("cli-format");
-var terminalLink = require("terminal-link");
-var config={
-    width:120
-}
+var gradient=require("gradient-string");
+var figlet=require("figlet");
 
-var color1=chalk.bold.cyan;
-var color2=chalk.bold.white
+var color1=chalk.bold.white;
+var color2=chalk.bold.red;
+var color3=chalk.bold.yellow
+var header = figlet.textSync("Welcome!", {font:"Ogre", horizontalLayout:"fitted", verticalLayout:"fitted"});
 
 
 var resume=require("./education.json");
@@ -16,7 +17,6 @@ var expInfo=resume.Experience;
 var conInfo=resume.Contact;
 var skillsInfo=resume.Skills;
 var projectsInfo=resume.Projects;
-var projectLink=terminalLink("Click Here",resume.Projects.Link);
 
 
 function options(){
@@ -24,34 +24,35 @@ function options(){
         {
             type:"list",
             name:"options",
-            message:"Please choose an option",
-            choices:["Education", "Professional Experience", "Skills", "Projects", "Contact", "Exit"],
-            pagesize:12
+            message:color1("Where would you like to go?"),
+            choices:[color3("Education"), color3("Professional Experience"), color3("Skills"), color3("Projects"), color3("Contact"), color2("Exit")],
+            pageSize:12
         }
     ])
     .then(function(answer){
         switch(answer.options){
-            case "Education": 
+            case color3("Education"): 
                 education();
                 backExit();
                 break;
-            case "Professional Experience": 
+            case color3("Professional Experience"): 
                 experience();
                 backExit();
                 break;
-            case "Skills": 
+            case color3("Skills"): 
                 skills();
                 backExit();
                 break;
-            case "Projects":
+            case color3("Projects"):
                 projects();
                 backExit();
                 break;
-            case "Contact":
+            case color3("Contact"):
                 contact();
                 backExit();
                 break;
-            case "Exit":
+            case color2("Exit"):
+            console.log(color1("Thank you for viewing my resume!"))
                 return;
         }
     });
@@ -62,15 +63,16 @@ function backExit(){
         {
             type:"list",
             name:"backExit",
-            message: "Would you like to go back or exit?",
-            choices:["Back to Options", "Exit"]
+            message: color1("Would you like to go back or exit?"),
+            choices:[color2("Back to Options"), color2("Exit")]
         }
     ]).then(function(answers){
         switch(answers.backExit){
-            case "Back to Options":
+            case color2("Back to Options"):
                 options();
                 break;
-            case "Exit":
+            case color2("Exit"):
+            console.log(color1("Thank you for viewing my resume!"))
             return;
         }
         
@@ -78,7 +80,6 @@ function backExit(){
 }
 function education(){
     console.log("\n")
-    // console.log("--------------------------------------------------------------------------")
     for(i=0; i<edInfo.length; i++){
        for (var key in edInfo[i]){
            console.log(color2(key + ":" + cliFormat.wrap((color1(edInfo[i][key])))));
@@ -90,7 +91,7 @@ function experience(){
     console.log("\n");
     for(i=0; i<expInfo.length; i++){
        for (var key in expInfo[i]){
-           console.log(color2(key + ":" + cliFormat.wrap((color1(expInfo[i][key])))));
+           console.log(color2(key + ":" + cliFormat.lines((color1(expInfo[i][key])))));
        };
        console.log("\n");
    };
@@ -102,7 +103,7 @@ function skills (){
             console.log(color2(key + ":" + cliFormat.wrap((color1(skillsInfo[i][key] )))));
         }
         console.log("\n");
-    }
+    };
 };
 
 function projects(){
@@ -110,9 +111,9 @@ function projects(){
     for(i=0; i<projectsInfo.length; i++){
         for (var key in projectsInfo[i]){
             console.log(color2(key + ":" + cliFormat.wrap((color1(projectsInfo[i][key])))));
-        }
+        };
         console.log("\n")
-    }
+    };
 };
 
    function contact(){
@@ -126,9 +127,9 @@ function projects(){
    };
 
 
-
 function main() {
-    console.log("Welcome to Brandy Nicholson's Resume.  Feel free to have a look around!");
+    console.log (gradient.rainbow(header));
+    console.log(color1("You are now viewing Brandy Nicholson's Resume"));
     options();
 };
 
