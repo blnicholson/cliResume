@@ -1,4 +1,4 @@
-#!\usr\bin\env node
+#!/usr/bin/env node
 var inquirer=require("inquirer");
 var chalk=require("chalk");
 var cliFormat=require("cli-format");
