@@ -1,6 +1,6 @@
 {
   "name": "brandy-cliresume",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resume in the CLI",
   "main": "index2.js",
   "dependencies": {
@@ -25,7 +25,6 @@
     "url": "https://github.com/blnicholson/cliResume/issues"
   },
   "homepage": "https://github.com/blnicholson/cliResume#readme",
-
   "bin": {
     "brandy-cliresume": "./index2.js"
   }
